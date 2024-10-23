@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Virtual Class Schedule</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <h1>Virtual Class</h1>
+    <div class="container">
+        <!-- Yesterday -->
+        <div class="day-column">
+            <h2>Yesterday</h2>
+            <div class="class-card">
+                <h3>Programming in 'C'</h3>
+                <p><strong>Topics covered:</strong> Computer system, Components of a computer system, Computing
+                    environments</p>
+                <p class="status">Attendance Status: Present (Attended for 43 min)</p>
+            </div>
+            <div class="class-card">
+                <h3>Applied Chemistry</h3>
+                <p><strong>Topics covered:</strong> Classification and Characteristics of fuels, Calorific values</p>
+                <p class="status">Attendance Status: Present (Attended for 49 min)</p>
+            </div>
+            <div class="class-card">
+                <h3>Applied Physics</h3>
+                <p><strong>Topics covered:</strong> Fundamental Ideas of Thermodynamics, The Continuum Model</p>
+                <p class="status">Attendance Status: Present (Attended for 45 min)</p>
+            </div>
+            <div class="class-card">
+                <h3>Electrical Science</h3>
+                <p><strong>Topics covered:</strong> Passive circuit components, Basic laws of Electrical Engineering,
+                    Temperature Coefficients</p>
+                <p class="status">Attendance Status: Present (Attended for 47 min)</p>
+            </div>
+        </div>
+
+        <!-- Today  -->
+        <div class="day-column">
+            <h2>Today</h2>
+            <div class="class-card">
+                <h3>Programming in 'C'</h3>
+                <p><strong>Topics covered:</strong> Computer languages, Creating and running programs, Preprocessor</p>
+                <time>5:32 PM</time>
+                <video id="video" autoplay></video>
+                <button id="capture-btn">Capture Photo</button>
+                <button id="join-btn" class="join-btn disabled" disabled>Join Now</button>
+            </div>
+            <div class="class-card">
+                <h3>Applied Chemistry</h3>
+                <p><strong>Topics covered:</strong> Comparison between solid, liquid, and gaseous fuels, Calorific
+                    values of fuels</p>
+                <time>9:00 AM</time>
+                <button class="join-btn disabled" disabled>Join Now</button>
+            </div>
+            <div class="class-card">
+                <h3>Applied Physics</h3>
+                <p><strong>Topics covered:</strong> The Concept of a "System", "State", "Equilibrium", "Process"</p>
+                <time>10:00 AM</time>
+                <button class="join-btn"><a href="https://meet.google.com/brd-ehjn-yjd">Join Now</a></button>
+            </div>
+            <div class="class-card">
+                <h3>Electrical Science</h3>
+                <p><strong>Topics covered:</strong> Passive circuit components, Series and parallel circuits</p>
+                <time>11:00 AM</time>
+                <button class="join-btn"><a href="https://meet.google.com/brd-ehjn-yjd">Join Now</a></button>
+            </div>
+        </div>
+
+        <!-- Tomorrow -->
+        <div class="day-column">
+            <h2>Tomorrow</h2>
+            <div class="class-card">
+                <h3>Programming in 'C'</h3>
+                <p><strong>Topics covered:</strong> Compilation process, Role of linker</p>
+                <time>10:00 AM</time>
+                <button class="join-btn disabled" disabled>Join Now</button>
+            </div>
+            <div class="class-card">
+                <h3>Applied Chemistry</h3>
+                <p><strong>Topics covered:</strong> Determination of calorific values using Bomb calorimeter, Boy's
+                    calorimeter</p>
+                <time>11:00 AM</time>
+                <button class="join-btn disabled" disabled>Join Now</button>
+            </div>
+            <div class="class-card">
+                <h3>Applied Physics</h3>
+                <p><strong>Topics covered:</strong> Equations of state and Heat, Zeroth Law of Thermodynamics</p>
+                <time>12:00 AM</time>
+                <button class="join-btn disabled" disabled>Join Now</button>
+            </div>
+            <div class="class-card">
+                <h3>Electrical Science</h3>
+                <p><strong>Topics covered:</strong> Power and energy, Kirchhoff's Laws, Nodal & Mesh Analysis</p>
+                <time>1:00 PM</time>
+                <button class="join-btn disabled" disabled>Join Now</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
